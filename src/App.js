@@ -1,6 +1,7 @@
 import Counter from './Counter'
-import Todo from './Todo'
 import './App.css';
+import Todo from './Todo'
+
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Counter />
       <Todo />
     </div>
-  );
+  )
 }
 
 export default App;
